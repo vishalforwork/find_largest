@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom, #c595b6 0%, #5f357a 75%, #321247 100%);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1, .first, .second, .third, #btn, #res{
+    margin: 10px;
+}
+#btn{
+    padding: 10px;
+    background-color: #f19136;
+    border: none;
+    border-radius: 10px;
+    width: 210px;
+}
+#num1, #num2, #num3{
+    padding: 10px;
+    border: 1px solid #878787;
+    border-radius: 10px;
+}
